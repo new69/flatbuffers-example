@@ -1,0 +1,9 @@
+namespace School;
+
+table Course {
+    id: int;
+    name: string;
+    description: string;
+}
+
+root_type Course;
